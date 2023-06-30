@@ -49,6 +49,13 @@ module.exports = {
       },
     },
     {
+      files: ['**/*.svelte'],
+      rules: {
+        'prettier/prettier': 'off',
+        'vue/comment-directive': 'off',
+      },
+    },
+    {
       // tests
       env: {jest: true},
       files: ['**/*.spec.{j,t}s?(x)', '**/*.e2e.{j,t}s?(x)'],
