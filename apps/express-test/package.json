@@ -6,7 +6,7 @@
     "debug": "vite --debug --inspect-brk",
     "dev": "vite",
     "dev-flag": "NODE_OPTIONS='--experimental-fetch' vite",
-    "start": "PORT=3000 node dist/main.js"
+    "start": "PORT=3000 node dist/main.mjs"
   },
   "dependencies": {
     "@foo-bar-project/utils": "workspace:*",

@@ -4,7 +4,7 @@ import * as entities from 'src/entities'
 
 export const typeormFactory = (): TypeOrmModuleOptions => {
   return {
-    database: 'mysql',
+    database: 'main',
     entities: Object.values(entities),
     retryAttempts: 3,
     type: 'sqlite',

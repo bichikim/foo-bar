@@ -5,7 +5,7 @@
     "build": "vite build",
     "debug": "vite --debug --inspect-brk",
     "dev": "vite",
-    "start": "PORT=3000 node dist/main.js"
+    "start": "PORT=3000 node dist/main.mjs"
   },
   "dependencies": {
     "@nestjs/common": "^8.4.7",

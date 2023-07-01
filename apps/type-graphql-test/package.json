@@ -5,9 +5,7 @@
     "build": "vite build",
     "debug": "vite --debug --inspect-brk",
     "dev": "vite",
-    "start": "PORT=3000 node dist/main.mjs",
-    "db:open": "docker exec -it mysql-container bashmy",
-    "db:start": "docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=dev-12345 -d -p 3306:3306 mysql:latest"
+    "start": "PORT=3000 node dist/main.mjs"
   },
   "dependencies": {
     "@apollo/server": "^4.7.5",
