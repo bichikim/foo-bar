@@ -18,11 +18,11 @@ pnpm install
 
 ## 프론트 문제
 
-Go To [/front-end.md](front-end.md)
+Go To [/front-end-apps](front-end-apps/README.md)
 
-## 백엔드 문제
+## 백엔드 문제 (WIP)
 
-Go To [/back-end.md](back-end.md)
+Go To [/back-end-apps](back-end-apps/README.md)
 
 ## 발생 할 수 있는 문제 상황
 

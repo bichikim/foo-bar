@@ -1,0 +1,29 @@
+{
+  "name": "@foo-bar-project/solid-test",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vite build --outDir dist/spa",
+    "dev": "vite --host",
+    "generate-pwa-icons": "pnpm dlx pwa-asset-generator public/favicon.svg public/images/pwa --manifest resource/manifest.json --path-override /images/pwa"
+  },
+  "dependencies": {
+    "graphql": "^16.3.0",
+    "@solidjs/router": "^0.8.2",
+    "solid-js": "^1.7.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.1.7",
+    "dotenv": "^16.3.1",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.4",
+    "unplugin-auto-import": "^0.16.4",
+    "unplugin-icons": "^0.16.3",
+    "vite": "^4.3.9",
+    "vite-plugin-imp": "^2.4.0",
+    "vite-plugin-pwa": "^0.16.4",
+    "vite-plugin-solid": "^2.7.0",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
+}
