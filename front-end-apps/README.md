@@ -84,5 +84,7 @@ pnpm install
 - React : [daisy-ui](https://daisyui.com/), [tailwind](https://tailwindcss.com/)
 - Vue :  [daisy-ui](https://daisyui.com/) , [tailwind](https://tailwindcss.com/)
 - SolidJs : [daisy-ui](https://daisyui.com/), [tailwind](https://tailwindcss.com/)
+- Svelte : [daisy-ui](https://daisyui.com/), [tailwind](https://tailwindcss.com/)
+- Lit : [daisy-ui](https://daisyui.com/), [tailwind](https://tailwindcss.com/) <- <span style="color:red">tailwind 작동 안됩니다 lit/main.ts 참고</span>
 
 << [README.md](../README.md)
