@@ -1,3 +1,5 @@
+import './index.css'
+// tailwind does not work in the shadow dom
 import {Route, Router} from '@vaadin/router'
 
 function initRouter() {
