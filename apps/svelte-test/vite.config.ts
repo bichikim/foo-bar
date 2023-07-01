@@ -1,7 +1,5 @@
 import {defineConfig} from 'vite'
 import icons from 'unplugin-icons/vite'
-import {VitePWA as vitePWA} from 'vite-plugin-pwa'
-import vitePluginImp from 'vite-plugin-imp'
 import * as dotenv from 'dotenv'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import manifest from './resource/manifest.json'
@@ -9,9 +7,6 @@ import {svelte} from '@sveltejs/vite-plugin-svelte'
 
 // eslint-disable-next-line import/no-named-as-default-member
 dotenv.config()
-
-const appName = 'vue web app'
-const shortName = 'vue app'
 
 // eslint-disable-next-line max-lines-per-function
 export default defineConfig(() => {
@@ -32,22 +27,8 @@ export default defineConfig(() => {
     plugins: [
       svelte(),
       tsconfigPaths(),
-      vitePluginImp(),
-
       icons(),
       // https://github.com/antfu/vite-plugin-pwa
-      vitePWA({
-        includeAssets: ['favicon.svg', 'robots.txt', 'safari-pinned-tab.svg'],
-        manifest: {
-          ...manifest,
-          name: appName,
-          // eslint-disable-next-line camelcase
-          short_name: shortName,
-          // eslint-disable-next-line camelcase
-          theme_color: '#ffffff',
-        },
-        registerType: 'autoUpdate',
-      }),
     ],
 
     resolve: {

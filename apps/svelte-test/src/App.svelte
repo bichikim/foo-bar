@@ -1,10 +1,10 @@
 <script lang="ts">
-
+  import Routes from './routes/Routes.svelte'
 </script>
 
-<main>
-  hello
-</main>
+<div>
+  <Routes />
+</div>
 
 <style>
   .logo {

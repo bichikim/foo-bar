@@ -51,6 +51,8 @@ module.exports = {
     {
       files: ['**/*.svelte'],
       rules: {
+        '@typescript-eslint/no-unused-vars': 'off',
+        'prefer-const': 'off',
         'prettier/prettier': 'off',
         'vue/comment-directive': 'off',
       },
