@@ -2,7 +2,6 @@ import {defineConfig} from 'vite'
 import icons from 'unplugin-icons/vite'
 import * as dotenv from 'dotenv'
 import tsconfigPaths from 'vite-tsconfig-paths'
-import manifest from './resource/manifest.json'
 import {svelte} from '@sveltejs/vite-plugin-svelte'
 
 // eslint-disable-next-line import/no-named-as-default-member
