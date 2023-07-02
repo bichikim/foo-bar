@@ -45,7 +45,7 @@ pnpm install
 <strong style="color:blue">원하시는 다른 방법으로 스타일링하며 컴포넌트를 작성 하셔도 됩니다</strong>
 
 ### 꼭 지켜야 될 것
-- eslint 룰을 지키세요 다만 본인 만의 룰로 하셔되 됩니다
+- eslint 룰을 지키세요 다만 본인 만의 룰로 하셔도 됩니다
 - type 오류가 없야 합니다
 
 #### 스팩
@@ -54,7 +54,7 @@ pnpm install
 
 화면 구현은 디자인 링크를 보고 구현해주세요 
 
-- 디자인 링크 > [Figma Link](https://www.figma.com/file/rRh6du4JPZclkiuBqLS6xX/Fornt-End-Test?node-id=0%3A1)  (디자인은 반응형레이아웃 입니다)
+- 디자인 링크 > [Figma Link](https://www.figma.com/file/c7vgGir5GkJZsRSxeOmLkU/Fornt-End-Test?type=design&node-id=0%3A1&mode=design&t=C3zkbRUGECWj0HZK-1)  (디자인은 반응형레이아웃 입니다)
 
 - 백엔드 주소 >
     - REST
